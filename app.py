@@ -11,6 +11,7 @@ app.config['SECRET_KEY'] = 'b59d5723ef83bb532f9a5e6cfc9c9b7b'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 db = SQLAlchemy(app)
 
+
 class User(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
