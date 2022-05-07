@@ -1,3 +1,4 @@
+# Standard imports
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField
 from wtforms.fields.simple import BooleanField, SubmitField
