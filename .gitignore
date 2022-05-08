@@ -3,6 +3,7 @@
 
 # Development meta files
 *.python-version
+*.log
 *.swo
 *.swp
 *.vim/
