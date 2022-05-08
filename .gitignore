@@ -18,6 +18,3 @@ __pycache__/
 .coverage
 .pytest*
 htmlcov
-
-# Data store
-*.db
